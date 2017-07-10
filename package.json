@@ -1,0 +1,10 @@
+{
+  "name": "craftbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "gatsby": "^1.0.7",
+    "gatsby-link": "^1.0.9"
+  }
+}
