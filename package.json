@@ -6,5 +6,8 @@
   "dependencies": {
     "gatsby": "^1.0.7",
     "gatsby-link": "^1.0.9"
+  },
+  "scripts": {
+    "dev": "gatsby develop"
   }
 }
