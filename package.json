@@ -8,6 +8,8 @@
     "gatsby-link": "^1.0.9"
   },
   "scripts": {
-    "dev": "gatsby develop"
+    "publish": "gatsby build",
+    "dev": "gatsby develop",
+    "test": "echo No tests!"
   }
 }
