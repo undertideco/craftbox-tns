@@ -5,11 +5,19 @@
   "license": "UNLICENSED",
   "dependencies": {
     "gatsby": "^1.0.7",
-    "gatsby-link": "^1.0.9"
+    "gatsby-link": "^1.0.9",
+    "react": "^15.6.1"
   },
   "scripts": {
     "publish": "gatsby build",
     "dev": "gatsby develop",
     "test": "echo No tests!"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0"
   }
 }
