@@ -1,13 +1,13 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Search from '../components/Search';
-import headerStyle from './header.css';
+import indexStyle from './index.css';
 
 export default class Template extends React.Component {
   render() {
     return (
-      <div>
-        <div className="header" styles={headerStyle}>
+      <div className="root-container" styles={indexStyle}>
+        <div className="header">
           <img className="icon" src="http://via.placeholder.com/40x40" alt=""/>
           <div className="title">
             <span
@@ -27,7 +27,9 @@ export default class Template extends React.Component {
           </div>
           <Search />
         </div>
-        {this.props.children()}
+        <div className="content">
+          {this.props.children()}
+        </div>
       </div>
     );
   }

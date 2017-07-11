@@ -7,7 +7,7 @@ export default class Navigation extends Component {
     return (
       <div>
         <ul styles={linkStyle}>
-          <Link className="link" to="/">Home</Link>
+          <Link className="link" to="/">Catalog</Link>
           <Link className="link" to="/product">Somewhere Else</Link>
         </ul>
       </div>

@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Notebook",
+    "image": "http://via.placeholder.com/400x400",
+    "price": 999.99,
+    "materials": [
+      {
+        "title": "Paper",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "title": "Card",
+    "image": "http://via.placeholder.com/400x400",
+    "price": 5.99,
+    "materials": [
+      {
+        "title": "Paper",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "title": "Card",
+    "image": "http://via.placeholder.com/400x400",
+    "price": 5.99,
+    "materials": [
+      {
+        "title": "Paper",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "title": "Card",
+    "image": "http://via.placeholder.com/400x400",
+    "price": 5.99,
+    "materials": [
+      {
+        "title": "Paper",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "title": "Card",
+    "image": "http://via.placeholder.com/400x400",
+    "price": 5.99,
+    "materials": [
+      {
+        "title": "Paper",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "title": "Card",
+    "image": "http://via.placeholder.com/400x400",
+    "price": 5.99,
+    "materials": [
+      {
+        "title": "Paper",
+        "quantity": 200
+      }
+    ]
+  }
+]

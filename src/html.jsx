@@ -12,6 +12,9 @@ if (process.env.NODE_ENV === 'production') {
 const style = {
   margin: '0',
   padding: '0',
+  width: '100%',
+  height: '100%',
+  backgroundColor: '#F7F7F7',
   fontFamily: ['Avenir Next', 'Segoe UI', 'sans-serif'],
 };
 
@@ -36,6 +39,10 @@ export default class HTML extends Component {
         <body style={style}>
           <div
             id="___gatsby"
+            style={{
+              width: '100%',
+              height: '100%',
+            }}
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
