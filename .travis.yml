@@ -9,7 +9,7 @@ before_install:
 script:
   - yarn test
 before_deploy:
-  - yarn publish
+  - yarn build
 deploy:
   provider: pages
   skip_cleanup: true

@@ -9,7 +9,7 @@
     "react": "^15.6.1"
   },
   "scripts": {
-    "publish": "gatsby build",
+    "build": "gatsby build",
     "dev": "gatsby develop",
     "test": "echo No tests!"
   },
