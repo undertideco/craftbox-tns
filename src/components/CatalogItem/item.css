@@ -1,7 +1,7 @@
 .item {
   position: relative;
   width: 300px;
-  height: 400px;
+  height: 300px;
   box-shadow: 1px 2px 5px 0 rgba(52, 40, 22, .04), 0 1px 2px 0 rgba(53, 40, 22, .04);
   border-radius: 5px;
   padding: 5px;
@@ -22,6 +22,8 @@
   bottom: 0;
   right: 0;
   z-index: 300;
+  padding: 1em;
+  box-sizing: border-box;
 }
 
 .item-image {
@@ -32,7 +34,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  object-fit: cover;
+  object-fit: contain;
   z-index: 200;
 }
 
@@ -50,4 +52,14 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.item-materials h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.material-quantity {
+  float: right;
 }
