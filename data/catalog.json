@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "title": "Card",
+    "title": "Cake",
     "image": "http://via.placeholder.com/400x400",
     "price": 5.99,
     "materials": [
@@ -37,7 +37,7 @@
   },
   {
     "id": 4,
-    "title": "Card",
+    "title": "Fish",
     "image": "http://via.placeholder.com/400x400",
     "price": 5.99,
     "materials": [
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "title": "Card",
+    "title": "Chickens",
     "image": "http://via.placeholder.com/400x400",
     "price": 5.99,
     "materials": [
@@ -65,7 +65,7 @@
   },
   {
     "id": 6,
-    "title": "Card",
+    "title": "Dog",
     "image": "http://via.placeholder.com/400x400",
     "price": 5.99,
     "materials": [
