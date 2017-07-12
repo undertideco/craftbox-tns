@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CatalogItem from '../components/CatalogItem';
 import indexStyle from './index.css';
-import catalogData from '../../data/catalog.json';
+import Database from '../database';
 
 export default class Index extends Component {
   render() {
@@ -10,7 +10,7 @@ export default class Index extends Component {
         <h1>Catalog</h1>
         <ul className="items">
           {
-            catalogData.map(item => (
+            Database.getAll().map(item => (
               <CatalogItem item={item} />
             ))
           }
