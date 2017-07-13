@@ -5,15 +5,17 @@ class CatalogItem extends Component {
   render() {
     const { item } = this.props;
     return (
-      // <Link className="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l" to={`/product?id=${item.id}`}>
-      <div className="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
-        <div className="aspect-ratio aspect-ratio--1x1">
-          <img src={item.image} alt="" />
-          <p>{item.title}</p>
-          <p>S${item.price}</p>
-        </div>
-      </div>
-      // </Link>
+      <article className="fl w-100 w-25-m w-20-l mv4 br2 ba dark-gray b--black-10">
+        <Link className="db link dim" to={`/product?id=${item.id}`}>
+          <img src={item.image} className="db w-100 br2 br--top" alt="Photo of a kitten looking menacing." />
+          <dl className="mt2 f6 lh-copy">
+            <dt className="clip">Title</dt>
+            <dd className="f5 f4-ns ml0 black truncate w-100">{item.title}</dd>
+            <dt className="clip">Artist</dt>
+            <dd className="f5 ml0 gray truncate w-100">${item.price}</dd>
+          </dl>
+        </Link>
+      </article>
     );
   }
 }
