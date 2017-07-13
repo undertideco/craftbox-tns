@@ -30,6 +30,7 @@ export default class HTML extends Component {
           />
           {this.props.headComponents}
           <link rel="shortcut icon" href={'favicon'} />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.7.4/tachyons.min.css" />
           <title>CraftBox</title>
           <style
             id="gatsby-inlined-css"

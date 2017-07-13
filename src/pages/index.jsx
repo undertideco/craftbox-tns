@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
-import CatalogItem from '../components/CatalogItem';
-import indexStyle from './index.css';
+import CatalogItem from '../components/CatalogItem/catalog_item';
+import Hero from '../components/Hero/hero';
 import Database from '../database';
 
 export default class Index extends Component {
   render() {
     return (
-      <div className="container" styles={indexStyle}>
-        <h1>Catalog</h1>
-        <ul className="items">
+      <div>
+        <Hero
+          imageUrl="https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/64.jpg"
+          title="Your Next DIY Project Starts Here."
+          subtitle="Browse our catalog below with kits starting as low as $29"
+        />
+        <div className="cf pa3 mw9 center">
           {
             Database.getAll().map(item => (
               <CatalogItem item={item} />
             ))
           }
-        </ul>
+        </div>
       </div>
     );
   }
