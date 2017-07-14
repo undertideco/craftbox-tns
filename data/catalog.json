@@ -1,15 +1,28 @@
 [
   {
     "id": 1,
-    "title": "Notebook",
-    "image": "http://via.placeholder.com/400x400",
-    "price": 999.99,
+    "title": "Starry Japanese Stab Binding Notebook",
+    "image": "http://68.media.tumblr.com/5b26272cc175a814f0017679ab7392d7/tumblr_nph17hCOgd1sdqfygo1_1280.jpg",
+    "price": 50.00,
+    "description": "This basic yet classic Large Ruled notebook is one of the best selling Moleskine notebooks. This reliable travel companion perfect for writings thoughts and passing notes has a cardboard bound cover with rounded corners acid free paper a bookmark an elastic closure and an expandable inner pocket that contains the Moleskine history.",
     "materials": [
       {
-        "title": "Paper",
-        "quantity": 200
+        "title": "250gsm paper",
+        "quantity": 2,
+        "unit": "sheets"
+      },
+      {
+        "title": "11\"x14\" drawing pad",
+        "quantity": 40,
+        "unit": "sheets" 
+      },
+      {
+        "title": "Waxed thread",
+        "quantity": 2,
+        "unit": "meters"
       }
-    ]
+    ],
+    "video_embed_url": "https://www.youtube.com/embed/S2FRKbQI2kY"
   },
   {
     "id": 2,
