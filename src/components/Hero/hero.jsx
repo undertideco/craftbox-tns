@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
 const Hero = ({ imageUrl, title, subtitle }) => (
 
@@ -9,5 +9,17 @@ const Hero = ({ imageUrl, title, subtitle }) => (
     </div>
   </div>
 );
+
+Hero.propTypes = {
+  imageUrl: PropTypes.string,
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+};
+
+Hero.defaultProps = {
+  imageUrl: '',
+  title: '',
+  subtitle: '',
+};
 
 export default Hero;
