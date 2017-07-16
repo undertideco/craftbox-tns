@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Search extends Component {
   render() {
     return (
-      <div className="dtc w-60-ns w-100 v-mid-l">
+      <div className="w-60-ns w-100 v-mid-l mb2 ma0-ns self-center">
         <fieldset className="cf bn ma0 pa0">
           <div className="cf">
             <label className="clip" htmlFor="email-address">Email Address</label>
