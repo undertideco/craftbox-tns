@@ -7,7 +7,7 @@
       "https://s-media-cache-ak0.pinimg.com/736x/a4/50/b9/a450b9eba42e660637ed0f3e506eaf47--hemp-leaf-japanese-binding.jpg",
       "http://vintagepagedesigns.com/wp-content/uploads/2015/07/Book21LittleArrows4-600x375.jpg"
     ],
-    "price": 50.00,
+    "price": 50.24,
     "description": "This basic yet classic Large Ruled notebook is one of the best selling Moleskine notebooks. This reliable travel companion perfect for writings thoughts and passing notes has a cardboard bound cover with rounded corners acid free paper a bookmark an elastic closure and an expandable inner pocket that contains the Moleskine history.",
     "materials": [
       {
@@ -30,49 +30,128 @@
   },
   {
     "id": 2,
-    "title": "Card",
+    "title": "Paper Plate Clock",
     "images": [
-      "http://via.placeholder.com/400x400"
+      "http://cdn3-www.momtastic.com/assets/uploads/2011/10/file_170092_8_101511-plateclock08.jpg",
+      "http://cdn1-www.momtastic.com/assets/uploads/2011/10/file_170092_1_101511-plateclock01.jpg"
     ],
-    "price": 5.99,
+    "price": 10,
+    "description": "One of the easiest of DIY projects out there, a Paper Plate clock is a unique way for parents and teachers to teach children about time while engaging in a simple handicraft activity. This kit provides you with cute patterned paper plates as well as all the clock kit tools you need to assemble it together.",
     "materials": [
       {
-        "title": "Paper",
-        "quantity": 200
+        "title": "Patterned Paper Plate",
+        "quantity": 1,
+        "unit": "plate"
+      },
+      {
+        "title": "Clock kit",
+        "quantity": 1,
+        "unit": "set "
+      },
+      {
+        "title": "Velcro",
+        "quantity": 2,
+        "unit": "strips"
       }
-    ]
+    ],
+    "video_embed_url": "https://www.youtube.com/embed/Jl_GRJVlc5E"
   },
   {
     "id": 3,
-    "title": "Cake",
+    "title": "Lego Fidget Spinner",
     "images": [
-      "http://via.placeholder.com/400x400"
+      "http://frugalfun4boys.com/wp-content/uploads/2017/05/Spinner-4-Edited-768x768.jpg",
+      "http://frugalfun4boys.com/wp-content/uploads/2017/05/Spinner-5-Edited-768x768.jpg",
+      "http://frugalfun4boys.com/wp-content/uploads/2017/05/Spinner-1-Edited-768x768.jpg"
     ],
-    "price": 5.99,
+    "price": 55.34,
+    "description": "Have you heard of fidget spinners?  Originally introduced as a fidget tool for kids with ADHD or autism spectrum disorder, they have exploded in popularity with kids everywhere!  My boys heard about them from neighbor kids and wanted one of their own, so we ordered one from Amazon.  I’ve gotta say – it’s a fun little gadget that demonstrates some neat properties of physics!",
     "materials": [
       {
-        "title": "Paper",
-        "quantity": 200
+        "title": "4x4 round plate",
+        "quantity": 2,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "6x6 round plate",
+        "quantity": 1,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "2x2 round tile with hole",
+        "quantity": 2,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Axle",
+        "quantity": 1,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "2x3 rectangular tile plate",
+        "quantity": 8,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "4x4 square tile plate",
+        "quantity": 4,
+        "unit": "piece(s)"
       }
-    ]
+    ],
+    "video_embed_url": "https://www.youtube.com/embed/hzCexQxRc7w"
   },
   {
     "id": 4,
-    "title": "Fish",
+    "title": "DIY Phone Controlled FPV Rover",
+    "description": "RoverBot is a highly educational Arduino based ATV-drone. It's simple to make, easy to program and is a great starter project for hobbyists! The bot is very fast and agile, not to mention of it carrying two \"29,000 rpm\" motors! It can surely outrun humans regardless of the terrain you're on!",
     "images": [
-      "http://via.placeholder.com/400x400"
+      "https://cdn.instructables.com/FMZ/9KFW/HSVGZV62/FMZ9KFWHSVGZV62.LARGE.jpg",
+      "https://cdn.instructables.com/FLW/90C0/HSVGZYWI/FLW90C0HSVGZYWI.LARGE.jpg"
     ],
-    "price": 5.99,
+    "price": 76.99,
     "materials": [
       {
-        "title": "Paper",
-        "quantity": 200
+        "title": "Tamiya PlasmaDash Motors (29,000 rpm - Carbon Brushed)",
+        "quantity": 2,
+        "unit": "piece(s)"
       },
       {
-        "title": "Nails",
-        "quantity": 999
+        "title": "Tamiya Twin Gearbox",
+        "quantity": 1,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Tamiya Track and Wheels Set (With Peg Board)",
+        "quantity": 1,
+        "unit": "set"
+      },
+      {
+        "title": "Pololu 2x30A Motor Driver",
+        "quantity": 1,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "7.4v - 950mAh Turningy LiPo Battery",
+        "quantity": 1,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "JY-MCU Bluetooth Device",
+        "quantity": 1,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "5MP Wireless IP Camera",
+        "quantity": 1,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Arduino Uno",
+        "quantity": 1,
+        "unit": "unit"
       }
-    ]
+    ],
+    "video_embed_url": "https://www.youtube.com/embed/-9oIQdoGkfk"
   },
   {
     "id": 5,
