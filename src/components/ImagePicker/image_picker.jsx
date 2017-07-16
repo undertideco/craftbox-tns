@@ -7,18 +7,26 @@ export default class ImagePicker extends Component {
     this.state = {
       selectedImage: props.imageUrls[0],
     };
+
+    this.handleThumbnailMouseOver = this.handleThumbnailMouseOver.bind(this)
+  }
+
+  handleThumbnailMouseOver(event) {
+    this.setState({
+      selectedImage: this.props.imageUrls[event.target.getAttribute('data-tag')],
+    });
   }
 
   renderImageReel() {
-    return this.props.imageUrls.map((image) => {
+    return this.props.imageUrls.map((image, index) => {
       const imageStyle = {
 	backgroundImage: `url(${image})`,
       };
 
       return (
-	<div className="w3 h3">
+	<div className="w3 h3 mr2" onMouseOver={this.handleThumbnailMouseOver}>
 	  <div className="aspect-ratio aspect-ratio--1x1">
-	    <img style={imageStyle} className="bg-center cover aspect-ratio--object" />
+	    <img data-tag={index} style={imageStyle} className="bg-center cover aspect-ratio--object" />
 	  </div>
 	</div>
       );
