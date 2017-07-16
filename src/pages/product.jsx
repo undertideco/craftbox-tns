@@ -40,7 +40,7 @@ export default class Product extends Component {
             }
           </ul>
         </section>
-        <section className="dt-row db">
+        <section className="db">
           <h1 className="f4 lh-title">Video</h1>
           <YouTube
             videoEmbedUrl={product.video_embed_url}
