@@ -5,7 +5,7 @@ class CatalogItem extends Component {
   render() {
     const { item } = this.props;
     const imageStyle = {
-      backgroundImage: `url(${item.image})`,
+      backgroundImage: `url(${item.images[0]})`,
     };
 
     return (
