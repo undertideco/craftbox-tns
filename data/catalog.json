@@ -2,7 +2,11 @@
   {
     "id": 1,
     "title": "Starry Japanese Stab Binding Notebook",
-    "image": "http://68.media.tumblr.com/5b26272cc175a814f0017679ab7392d7/tumblr_nph17hCOgd1sdqfygo1_1280.jpg",
+    "images": [
+      "http://68.media.tumblr.com/5b26272cc175a814f0017679ab7392d7/tumblr_nph17hCOgd1sdqfygo1_1280.jpg",
+      "https://s-media-cache-ak0.pinimg.com/736x/a4/50/b9/a450b9eba42e660637ed0f3e506eaf47--hemp-leaf-japanese-binding.jpg",
+      "http://vintagepagedesigns.com/wp-content/uploads/2015/07/Book21LittleArrows4-600x375.jpg"
+    ],
     "price": 50.00,
     "description": "This basic yet classic Large Ruled notebook is one of the best selling Moleskine notebooks. This reliable travel companion perfect for writings thoughts and passing notes has a cardboard bound cover with rounded corners acid free paper a bookmark an elastic closure and an expandable inner pocket that contains the Moleskine history.",
     "materials": [
@@ -27,7 +31,9 @@
   {
     "id": 2,
     "title": "Card",
-    "image": "http://via.placeholder.com/400x400",
+    "images": [
+      "http://via.placeholder.com/400x400"
+    ],
     "price": 5.99,
     "materials": [
       {
@@ -39,7 +45,9 @@
   {
     "id": 3,
     "title": "Cake",
-    "image": "http://via.placeholder.com/400x400",
+    "images": [
+      "http://via.placeholder.com/400x400"
+    ],
     "price": 5.99,
     "materials": [
       {
@@ -51,7 +59,9 @@
   {
     "id": 4,
     "title": "Fish",
-    "image": "http://via.placeholder.com/400x400",
+    "images": [
+      "http://via.placeholder.com/400x400"
+    ],
     "price": 5.99,
     "materials": [
       {
@@ -67,7 +77,9 @@
   {
     "id": 5,
     "title": "Chickens",
-    "image": "http://via.placeholder.com/400x400",
+    "images": [
+      "http://via.placeholder.com/400x400"
+    ],
     "price": 5.99,
     "materials": [
       {
@@ -79,7 +91,9 @@
   {
     "id": 6,
     "title": "Dog",
-    "image": "http://via.placeholder.com/400x400",
+    "images": [
+      "http://via.placeholder.com/400x400"
+    ],
     "price": 5.99,
     "materials": [
       {
