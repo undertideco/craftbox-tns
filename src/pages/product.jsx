@@ -6,11 +6,18 @@ export default class Product extends Component {
   render() {
     const productID = this.props.location.search.match(/id=(\d)/)[1];
     const product = Database.getById(parseInt(productID));
+
+    const productImageStyle = {
+      backgroundImage: `url(${product.image})`,
+    };
+
     return (
-      <div className="dt pa3 mw9">
+      <div className="dt pa3 mw9 center">
         <section className="dt-row fl db">
-          <div className="fl w-100 w-40-ns">
-            <img src={product.image} alt="" />
+          <div className="fl w-100 w-40-m w-20-s">
+            <div className="aspect-ratio aspect-ratio--1x1">
+              <img style={productImageStyle} className="bg-center cover aspect-ratio--object" alt="" />
+            </div>
           </div>
           <div className="fl w-100 w-60-ns ph4-ns">
             <h1 className="f3 ln-title">{product.title}</h1>
