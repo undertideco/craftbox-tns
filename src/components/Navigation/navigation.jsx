@@ -1,14 +1,12 @@
 import React from 'react';
 import Search from '../Search/search';
-import Link from 'gatsby-link';
 
 const Navigation = ({ children }) => (
   <div className="flex flex-column flex-row-ns justify-left w-100 pa3 bg-blue">
     <h1 className="f3 w-100 w-20-ns white lh-title self-center ma0 mb2 ma0-ns">CraftBox</h1>
     <Search />
     <div className="self-center-ns w-20-ns tl tr-ns">
-      <Link className="f6 fw4 hover-white no-underline white-70 pr2" to="/">Catalog</Link>
-      <Link className="f6 fw4 hover-white no-underline white-70 pr2" to="/product">Inspiration</Link>
+      {children}
     </div>
   </div>
 );
@@ -16,7 +14,7 @@ const Navigation = ({ children }) => (
 export default Navigation;
 
 Navigation.propTypes = {
-children: React.ReactNode,
+  children: React.ReactNode,
 };
 
 Navigation.defaultProps = {
