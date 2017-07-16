@@ -2,18 +2,28 @@ import React, { PropTypes } from 'react';
 
 const YouTube = ({ videoEmbedUrl }) => {
   const style = {
-    height: '40%',
+    height: '100%',
     width: '100%',
     left: 0,
+    top: 0,
     position: 'absolute',
   };
 
+  const parentStyle = {
+    position: 'relative',
+    paddingBottom: '56.25%',
+    paddingTop: '25px',
+    height: 0
+  };
+
   return (
-    <iframe
-      src={videoEmbedUrl}
-      style={style}
-      frameBorder="0"
-    ></iframe>
+    <div style={parentStyle}>
+      <iframe
+        src={videoEmbedUrl}
+        style={style}
+        frameBorder="0"
+      ></iframe>
+    </div>
   );
 };
 
