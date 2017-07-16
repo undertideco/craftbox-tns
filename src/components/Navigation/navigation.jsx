@@ -1,5 +1,6 @@
 import React from 'react';
 import Search from '../Search/search';
+import Link from 'gatsby-link';
 
 const Navigation = ({ children }) => (
   <div className="flex flex-column flex-row-ns justify-left w-100 pa3 bg-blue">
