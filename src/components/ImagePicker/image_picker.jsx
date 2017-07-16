@@ -20,15 +20,15 @@ export default class ImagePicker extends Component {
   renderImageReel() {
     return this.props.imageUrls.map((image, index) => {
       const imageStyle = {
-	backgroundImage: `url(${image})`,
+        backgroundImage: `url(${image})`,
       };
 
       return (
-	<div className="w3 h3 mr2" onMouseOver={this.handleThumbnailMouseOver}>
-	  <div className="aspect-ratio aspect-ratio--1x1">
-	    <img data-tag={index} style={imageStyle} className="bg-center cover aspect-ratio--object" />
-	  </div>
-	</div>
+        <div className="w3 h3 mr2" onMouseOver={this.handleThumbnailMouseOver}>
+          <div className="aspect-ratio aspect-ratio--1x1">
+            <img data-tag={index} style={imageStyle} className="bg-center cover aspect-ratio--object" />
+          </div>
+        </div>
       );
     });
   }
@@ -40,14 +40,14 @@ export default class ImagePicker extends Component {
 
     return (
       <div className="flex flex-column">
-	<div className="mb3">
-	  <div className="aspect-ratio aspect-ratio--1x1">
-	    <img style={productImageStyle} className="bg-center cover aspect-ratio--object" alt="" />
-	  </div>
-	</div>
-	<div className="flex flex-row">
-	  {this.renderImageReel()}
-	</div>
+        <div className="mb3">
+          <div className="aspect-ratio aspect-ratio--1x1">
+            <img style={productImageStyle} className="bg-center cover aspect-ratio--object" alt="" />
+          </div>
+        </div>
+        <div className="flex flex-row">
+          {this.renderImageReel()}
+        </div>
       </div>
     );
   }
