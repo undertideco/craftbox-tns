@@ -14,7 +14,7 @@ export default class Product extends Component {
     return (
       <div className="dt pa3 mw9 center">
         <section className="dt-row fl db">
-          <div className="fl w-100 w-40-m w-20-s">
+          <div className="fl w-100 w-40-m w-20-l">
             <div className="aspect-ratio aspect-ratio--1x1">
               <img style={productImageStyle} className="bg-center cover aspect-ratio--object" alt="" />
             </div>
