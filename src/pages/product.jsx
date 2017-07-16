@@ -12,14 +12,14 @@ export default class Product extends Component {
     };
 
     return (
-      <div className="flex flex-column pa3 mw9 center">
-        <section className="flex flex-column flex-row-ns">
+      <div className="flex flex-column pa2 pa3-ns mw8 center">
+        <section className="flex flex-column flex-row-ns justify-center pb3 bb b--light-silver">
           <div className="w-100 w-40-m w-20-l">
             <div className="aspect-ratio aspect-ratio--1x1">
               <img style={productImageStyle} className="bg-center cover aspect-ratio--object" alt="" />
             </div>
           </div>
-          <div className="w-100 w-60-ns ph4-ns">
+          <div className="w-100 w-60-m w-80-l ph4-ns">
             <h1 className="f3 ln-title">{product.title}</h1>
             <p className="f5 lh-copy">{product.description}</p>
             <div className="flex flex-column flex-row-ns mb2-s items-center-ns">
