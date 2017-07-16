@@ -11,9 +11,9 @@ class CatalogItem extends Component {
     return (
       <article className="fl w-100 w-25-m w-20-l mv4 pa2-ns">
         <Link className="db link dim" to={`/product?id=${item.id}`}>
-	  <div className="aspect-ratio aspect-ratio--1x1">
-	    <img style={imageStyle} className="bg-center cover aspect-ratio--object" />
-	  </div>
+          <div className="aspect-ratio aspect-ratio--1x1">
+            <img style={imageStyle} className="bg-center cover aspect-ratio--object" />
+          </div>
           <dl className="mt2 f6 lh-copy">
             <dt className="clip">Title</dt>
             <dd className="f5 fw5 ml0 black truncate w-100">{item.title}</dd>
