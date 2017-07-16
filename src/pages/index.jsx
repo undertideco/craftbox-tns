@@ -8,7 +8,7 @@ export default class Index extends Component {
     return (
       <div>
         <Hero
-          imageUrl="https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/64.jpg"
+          imageUrl="http://i.imgur.com/sBT6cuH.jpg"
           title="Your Next DIY Project Starts Here."
           subtitle="Browse our catalog below with kits starting as low as $29"
         />
