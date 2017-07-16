@@ -4,8 +4,15 @@ import YouTube from '../components/YouTube/youtube';
 
 export default class Product extends Component {
   render() {
-    const productID = this.props.location.search.match(/id=(\d)/)[1];
-    const product = Database.getById(parseInt(productID));
+    const productIDMatches = this.props.location.search.match(/id=(\d)/);
+    const productID = productIDMatches !== null ? productIDMatches[1] : null;
+    const product = Database.getById(parseInt(productID)) || {
+      title: '',
+      description: '',
+      image: '',
+      price: '',
+      materials: [],
+    };
 
     const productImageStyle = {
       backgroundImage: `url(${product.image})`,
