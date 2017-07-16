@@ -10,7 +10,7 @@ export default class Product extends Component {
     const product = Database.getById(parseInt(productID)) || {
       title: '',
       description: '',
-      image: '',
+      images: [],
       price: '',
       materials: [],
     };
@@ -18,12 +18,12 @@ export default class Product extends Component {
     return (
       <div className="flex flex-column pa2 pa3-ns mw8 center">
         <section className="flex flex-column flex-row-ns justify-center pb3 bb b--light-silver">
-	  <div className="w-100 w-40-m w-30-l">
-	    <ImagePicker
-	      imageUrls={product.images}
-	    />
+          <div className="w-100 w-40-m w-30-l">
+            <ImagePicker
+              imageUrls={product.images}
+            />
           </div>
-	  <div className="w-100 w-60-m w-70-l ph4-ns">
+          <div className="w-100 w-60-m w-70-l ph4-ns">
             <h1 className="f3 ln-title">{product.title}</h1>
             <p className="f5 lh-copy">{product.description}</p>
             <div className="flex flex-column flex-row-ns mb2-s items-center-ns">
