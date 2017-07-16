@@ -12,14 +12,14 @@ export default class Product extends Component {
     };
 
     return (
-      <div className="dt pa3 mw9 center">
-        <section className="dt-row fl db">
-          <div className="fl w-100 w-40-m w-20-l">
+      <div className="flex flex-column pa3 mw9 center">
+        <section className="flex flex-column flex-row-ns">
+          <div className="w-100 w-40-m w-20-l">
             <div className="aspect-ratio aspect-ratio--1x1">
               <img style={productImageStyle} className="bg-center cover aspect-ratio--object" alt="" />
             </div>
           </div>
-          <div className="fl w-100 w-60-ns ph4-ns">
+          <div className="w-100 w-60-ns ph4-ns">
             <h1 className="f3 ln-title">{product.title}</h1>
             <p className="f5 lh-copy">{product.description}</p>
             <div className="flex flex-column flex-row-ns mb2-s items-center-ns">
@@ -28,7 +28,7 @@ export default class Product extends Component {
             </div>
           </div>
         </section>
-        <section className="dt-row db">
+        <section>
           <h1 className="f4 lh-title">Materials Included In This Kit:</h1>
           <ul className="list pa0 measure">
             {
