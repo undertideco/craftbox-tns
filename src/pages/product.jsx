@@ -5,7 +5,7 @@ import ImagePicker from '../components/ImagePicker/image_picker';
 
 export default class Product extends Component {
   render() {
-    const productIDMatches = this.props.location.search.match(/id=(\d)/);
+    const productIDMatches = this.props.location.search.match(/id=(\d+)/);
     const productID = productIDMatches !== null ? productIDMatches[1] : null;
     const product = Database.getById(parseInt(productID)) || {
       title: '',
