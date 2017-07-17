@@ -307,6 +307,103 @@
         "quantity": 5,
         "unit": "piece(s)"
       }
-    ]
+    ],
+    "video_embed_url": "https://www.youtube.com/embed/JlWBAEab1gE"
+  },
+  {
+    "id": 10,
+    "title": "DIY Popsicle Polaroid Instant Camera",
+    "description": "Making your own Polaroid instant camera with just a few simple materials. What an ingenious way of creating something out of spare parts, creativity and glue! Tons of cameras are available on the market, but it’s nice to know that we can make an instant camera that works remarkably well considering it was put together with scavenged parts.",
+    "images": [
+      "https://s-media-cache-ak0.pinimg.com/736x/52/53/9a/52539ab697cec92bab7cdb82f651568c--diy-presente-pop-up-cards.jpg",
+      "https://s-media-cache-ak0.pinimg.com/736x/a3/79/79/a37979517a8bff1c8dae3319257490c7--polaroid-cameras-polaroid-card.jpg"
+    ],
+    "price": 15.41,
+    "materials": [
+      {
+        "title": "Wooden Popsicle Sticks",
+        "quantity": 20,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Polaroid film holder",
+        "quantity": 1,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "300gsm A5 card stock",
+        "quantity": 3,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Duct Tape",
+        "quantity": 1,
+        "unit": "roll"
+      },
+      {
+        "title": "Lens from an old folding camera",
+        "quantity": "1",
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Fuji-FP 100C Film",
+        "quantity": "1",
+        "unit": "roll"
+      },
+      {
+        "title": "Disposable Glue Gun",
+        "quantity": 1,
+        "unit": "piece"
+      }
+    ],
+    "video_embed_url": "https://www.youtube.com/embed/Yapm-RM5ln4"
+  },
+  {
+    "id": 11,
+    "title": "Mini Wind Generator",
+    "description": "Wind power is one of the fastest-growing energy sources in the world. With this quick project, young engineers can build a working turbine in just a couple of hours.",
+    "images": [
+      "http://www.gotwind.org/diy/images/Mini-Turbine/Gotwind-Mini-turbine.jpg",
+      "http://pop.h-cdn.co/assets/cm/15/05/54ca5eb579a8c_-_ea-wind-turbine-01-0413-de.jpg"
+    ],
+    "price": 45,
+    "materials": [
+      {
+        "title": "1-inch diameter PVC 90 degree fittings",
+        "quantity": 5,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "1-inch diameter PVC tee fittings",
+        "quantity": 3,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "1-inch diameter PVC coupler",
+        "quantity": 1,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "1-inch diameter, 6-inch long PVC pipe",
+        "quantity": 6,
+        "unit": "pipes"
+      },
+      {
+        "title": "1-inch diamater, 14-inches-long PVC pipe",
+        "quantity": 1,
+        "unit": "pipe"
+      },
+      {
+        "title": "1-inch diameter, 2-inches-long PVC pipe",
+        "quanity": 1,
+        "unit": "pipe"
+      },
+      {
+        "title": "Poster Board",
+        "quantity": 2,
+        "unit": "piece"
+      }
+    ],
+    "video_embed_url": "https://www.youtube.com/embed/4k9ciuIAo8I"
   }
 ]
