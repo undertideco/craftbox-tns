@@ -12,7 +12,7 @@ export default class Index extends Component {
           title="Your Next DIY Project Starts Here."
           subtitle="Browse our catalog below with kits starting as low as $29"
         />
-        <div className="cf pa3 mw9 center">
+        <div className="cf pa3 mw8 center">
           {
             Database.getAll().map(item => (
               <CatalogItem item={item} />

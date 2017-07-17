@@ -9,7 +9,7 @@ class CatalogItem extends Component {
     };
 
     return (
-      <article className="fl w-100 w-25-m w-20-l mv4 pa2-ns">
+      <article className="fl w-100 w-third-m w-25-l mv4 pa2-ns">
         <Link className="db link dim" to={`/product?id=${item.id}`}>
           <div className="aspect-ratio aspect-ratio--1x1">
             <img style={imageStyle} className="bg-center cover aspect-ratio--object" />
