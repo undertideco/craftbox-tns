@@ -7,7 +7,7 @@
       "https://s-media-cache-ak0.pinimg.com/736x/a4/50/b9/a450b9eba42e660637ed0f3e506eaf47--hemp-leaf-japanese-binding.jpg",
       "http://vintagepagedesigns.com/wp-content/uploads/2015/07/Book21LittleArrows4-600x375.jpg"
     ],
-    "price": 50.24,
+    "price": 25.42,
     "description": "This basic yet classic Large Ruled notebook is one of the best selling Moleskine notebooks. This reliable travel companion perfect for writings thoughts and passing notes has a cardboard bound cover with rounded corners acid free paper a bookmark an elastic closure and an expandable inner pocket that contains the Moleskine history.",
     "materials": [
       {
@@ -155,29 +155,157 @@
   },
   {
     "id": 5,
-    "title": "Chickens",
+    "title": "Planetarium Projector",
+    "description": "A projection lamp covered with the images of universe covered. this projector will make your room into a little universe. this projector is easy to make and require little tools to do it.",
     "images": [
-      "http://via.placeholder.com/400x400"
+      "https://ae01.alicdn.com/kf/HTB1yE_xIpXXXXa_XVXXq6xXFXXXq/ホーム-プラネタリウム-スター-マスター-プロジェクター-ロマンチックライトランプ日本学研9巻diy投影夜空.jpg_640x640.jpg",
+      "https://cdn.shopify.com/s/files/1/0996/4086/products/IMG_0935.JPG?v=1443769054",
+      "http://www.dhresource.com/0x0s/f2-albu-g4-M00-50-D7-rBVaEFetlo-AVC5YAAYqPo_X7gg700.jpg/hot-popular-diy-planetarium-led-night-light.jpg"
     ],
-    "price": 5.99,
+    "price": 20,
     "materials": [
       {
-        "title": "Paper",
-        "quantity": 200
+        "title": "AA Battery",
+        "quantity": 2,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Projection Board",
+        "quantity": 11,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Bulb Base",
+        "quantity": 1,
+        "unit": "piece(s)"
       }
-    ]
+    ],
+    "video_embed_url": "https://www.youtube.com/embed/IxLJRfBU79I"
   },
   {
     "id": 6,
-    "title": "Dog",
+    "title": "Cellphone Charging Holder",
+    "description": "A container that can hold your phone at the electrical port as it's charging.",
     "images": [
-      "http://via.placeholder.com/400x400"
+      "http://www.makeit-loveit.com/wp-content/uploads/2011/12/IMG_12621.jpg",
+      "http://www.makeit-loveit.com/wp-content/uploads/2011/12/cell-phone-holder2-670x526.jpg",
+      "http://www.makeit-loveit.com/wp-content/uploads/2011/12/IMG_1420-670x446.jpg"
     ],
-    "price": 5.99,
+    "price": 10,
     "materials": [
       {
-        "title": "Paper",
-        "quantity": 200
+        "title": "Johnson Bottle",
+        "quantity": 1,
+        "unit": "bottle"
+      },
+      {
+        "title": "Scissors",
+        "quantity": 1,
+        "unit": "pair"
+      }
+    ],
+    "video_embed_url": "https://www.youtube.com/embed/S7GY1uavdIM"
+  },
+  {
+    "id": 7,
+    "title": "StrandBeest Model Kit",
+    "description": "A wind powered mini 'animal' made of plastic tubes and joint. use a fan to get energy from the wind to make itself move.",
+    "images": [
+      "https://img.banggood.com/thumb/water/upload/2014/06/sku103026-01.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLkwVh7oqKWdxVsM-bFyGhi0O4VJ-raYuzX7Hz5xqCdcXrHKy6_Q"
+    ],
+    "price": 30,
+    "materials": [
+      {
+        "title": "Plastic Tubes",
+        "quantity": 30,
+        "unit": "tubes"
+      },
+      {
+        "title": "Plastic Joints",
+        "quantity": 30,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Plastic Gears",
+        "quantity": 5,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Fan Blades",
+        "quantity": 5,
+        "unit": "blade(s)"
+      }
+    ],
+    "video_embed_url": "https://www.youtube.com/embed/0JnTThZMJAg"
+  },
+  {
+    "id": 8,
+    "title": "String Lanterns",
+    "description": "These delicate ornaments don't have to be used just for Christmas, I plan on keeping these above my bed all year round!",
+    "images": [
+      "http://68.media.tumblr.com/tumblr_lkhqvqHFkE1qznaa6.jpg",
+      "http://68.media.tumblr.com/tumblr_lkhb3pLG4m1qznaa6.png",
+      "http://68.media.tumblr.com/tumblr_lkhqtwNIVD1qznaa6.png"
+    ],
+    "price": 40,
+    "materials": [
+      {
+        "title": "String/Twine",
+        "quantity": 5,
+        "unit": "meter(s)"
+      },
+      {
+        "title": "PVA Glue",
+        "quantity": 30,
+        "unit": "ml"
+      },
+      {
+        "title": "Balloon",
+        "quantity": 5,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Plastic Bowl",
+        "quantity": 1,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Silver Spray Paint",
+        "quantity": 1,
+        "unit": "cannister"
+      },
+      {
+        "title": "Blue Tac",
+        "quantity": 50,
+        "unit": "grams"
+      }
+    ],
+    "video_embed_url": "https://www.youtube.com/embed/EYIqzdFc8to"
+  },
+  {
+    "id": 9,
+    "title": "Wine Cork Pendants",
+    "description": "Pendants made out of wine corks, that can be used for a necklace",
+    "images": [
+      "http://www2.fiskars.com/var/fiskars_amer/storage/images/frontpage2/ideas-and-how-tos/crafting-and-sewing/upcycling/upcycled-wine-cork-pendants/662043-1-eng-US/Upcycled-Wine-Cork-Pendants.jpg"
+    ],
+    "price": 10,
+    "materials": [
+      {
+        "title": "Pre-cut Wine Cork",
+        "quantity": 1,
+        "unit": "piece(s)"
+      },
+      {
+        "title": "Paint",
+        "quantity": "30",
+        "unit": "ml"
+      },
+      {
+        "title": "Eye screws",
+        "quantity": 5,
+        "unit": "piece(s)"
       }
     ]
   }
