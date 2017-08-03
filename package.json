@@ -12,13 +12,16 @@
     "build": "gatsby build --prefix-paths",
     "build:dev": "gatsby build",
     "dev": "gatsby develop",
-    "test": "echo No tests!"
+    "test": "echo No tests!",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "eslint": "^4.2.0",
     "eslint-config-airbnb": "^15.0.2",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-react": "^7.1.0",
+    "@storybook/react": "^3.1.8"
   }
 }
